@@ -1,0 +1,25 @@
+<Level  fromX="2"   fromY="2"    toX="78"	toY="20">
+    <spawn x="3" y="3" />
+	<finish x="73" y="19" target="10" />
+    <Block x="5" y="6" ID="3" />
+    <Block x="5" y="7" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, HorizontalChar, VerticalChar -->
+    <Wall x="12" y="2" height="17" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, doorX, doorY, doorSize -->
+	<Room x="0" y="0" width="5" height="5" TextColor="4" DoorX ="2" DoorY="5" />
+	<Room  x="69" y="10" width="8" height="10" TextColor="2" DoorX ="69" DoorY="12" />
+    <!-- x, y, ID 
+	or Name -->
+    <Entity <!-- x, y, ID or Name --> x="20" y="15" ID="0" />
+</Level >
+
+<Level fromX="2" fromY="2" toX="78" toY="20">
+    <spawn x="3" y="3" />
+    <finish x="73" y="19" target="10" />
+    <Block x="5" y="6" ID="3" />
+    <Block x="5" y="7" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, HorizontalChar, VerticalChar -->
+    <Wall x="12" y="2" height="17" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, doorX, doorY, doorSize -->
+    <Room x="0" y="0" width="5" height="5" TextColor="4" DoorX ="2" DoorY="5" />
+</Level >

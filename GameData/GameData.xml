@@ -1,0 +1,47 @@
+<KeyAction Left="7777" Right="8292" Up="4471" Down="8051" />
+<KeyAction Left="33619747" Right="33619749" Up="33619745" Down="33619751" />
+<KeyAction Left="8550" Right="9064" Up="5236" Down="8807" />
+<KeyAction Left="9322" Right="9836" Up="5993" Down="9579" />
+<KeyAction Left="561" Right="1075" Up="1589" Down="818" />
+
+<ScoreBoard ShowLevel="true" ShowEachPlayerLife="true" ShowEachPlayerName="true" SeperatorCharacter="/" />
+
+<!-- <BlockType TextColor="0" BackgroundColor="0" Character=" " Name="Void" /> -->
+<BlockType TextColor="0" BackgroundColor="0" Collidable="false" Character=" " Name="Void" />
+<BlockType TextColor="0" BackgroundColor="2" Collidable="false" Character=" " Name="Grass" />
+<BlockType TextColor="0" 
+       BackgroundColor="6" 
+       Collidable="false" 
+       Character=" " 
+       Name="Dirt" />
+<BlockType TextColor="6" BackgroundColor="0" Collidable="true" Character="|" Name="Wall" />
+<BlockType TextColor="0" BackgroundColor="6" Collidable="false" Character=" " Name="FinishPoint" />
+
+<EntityType Damage="1" Life="3" />
+<EntityModel EntityType="0" BackgroundColor="3" TextColor="0" Character=" " Name="Mob Level 1" />
+
+<Level  FromX="2"   FromY="2"    ToX="78"	ToY="20">
+    <Spawn X="3" Y="3" />
+	<Finish X="73" Y="19" Target="10" />
+    <Block X="5" Y="6" ID="3" />
+    <Block X="5" Y="7" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, HorizontalChar, VerticalChar -->
+    <Wall X="12" Y="2" Height="17" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, doorX, doorY, doorSize -->
+	<Room X="0" Y="0" Width="5" Height="5" TextColor="4" DoorX ="2" DoorY="5" />
+	<Room  X="69" Y="10" Width="8" Height="10" TextColor="2" DoorX ="69" DoorY="12" />
+    <!-- x, y, ID
+	or Name -->
+    <Entity <!-- x, y, ID or Name --> X="20" Y="15" ID="0" />
+</Level >
+
+<Level FromX="2" FromY="2" ToX="78" ToY="20" ForceGoThrough="false" ID="" Name="">
+    <Spawn X="3" Y="3" />
+    <Finish X="73" Y="19" Target="10" />
+    <Block X="5" Y="6" ID="3" />
+    <Block X="5" y="7" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, HorizontalChar, VerticalChar -->
+    <Wall X="12" Y="2" Height="17" Name="Wall" />
+    <!-- x, y, width, height, textColor, backColor, doorX, doorY, doorSize -->
+    <Room X="0" Y="0" Width="5" Height="5" TextColor="4" DoorX ="2" DoorY="5" />
+</Level >

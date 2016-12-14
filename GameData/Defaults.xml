@@ -1,0 +1,18 @@
+<KeyAction LEFT="7777" RIGHT="8292" UP="4471" DOWN="8051" />
+<KeyAction LEFT="33619747" RIGHT="33619749" UP="33619745" DOWN="33619751" />
+<KeyAction LEFT="8550" RIGHT="9064" UP="5236" DOWN="8807" />
+<KeyAction LEFT="9322" RIGHT="9836" UP="5993" DOWN="9579" />
+<KeyAction LEFT="561" RIGHT="1075" UP="1589" DOWN="818" />
+
+<EntityType Damage="1" Life="3" />
+<EntityModel EntityType="0" BackgroundColor="3" TextColor="0" Character=" " Name="Mob Level 1" />
+
+<BlockType TextColor="0" BackgroundColor="0" Collidable="false" Character=" " Name="Void" />
+<BlockType TextColor="0" BackgroundColor="2" Collidable="false" Character=" " Name="Grass" />
+<BlockType TextColor="0" 
+       BackgroundColor="6" 
+       Collidable="false" 
+       Character=" " 
+       Name="Dirt" />
+<BlockType TextColor="6" BackgroundColor="0" Collidable="true" Character="|" Name="Wall" />
+<BlockType TextColor="0" BackgroundColor="6" Collidable="false" Character=" " Name="FinishPoint" />
